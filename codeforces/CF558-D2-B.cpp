@@ -1,6 +1,6 @@
 /*
 	we store the frequency and the last occ of the number in an array
-	we run over the left most number and check if we can get a segment with more beauty (frequency)
+	we check the first occ of the number and check if we can get a segment with more beauty (frequency)
 	and if it's equal to the max we compare the distance
 */
 #include <bits/stdc++.h>
