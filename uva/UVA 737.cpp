@@ -1,5 +1,6 @@
 /* 
-	
+	check where the intersection happens for x,y,z and the distance
+	then calculate the volume
 */
 #include <bits/stdc++.h>
 using namespace std;
