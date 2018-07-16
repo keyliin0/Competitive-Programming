@@ -1,5 +1,5 @@
 /* 
-	observation : if a prime number x > 2 exist and x * 2 <= length of the string then s[x] must be equal to s[2] and so on
+	observation : if a prime number x > 2 and x * 2 <= length of the string then s[x] must be equal to s[2] and so on
 	a greedy way to check for a solution is to take caracter which has the max frequency and check if we can make 
 	all positions of multiples of two equal the same caracter and then we check the other postion where x > 2 and x * 2 <= length of the string
 	the other postions can take any caracter
