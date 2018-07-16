@@ -1,6 +1,6 @@
 /*
 	we can take care of case n = 1 , n = 2 first
-	then check if we have an arithmetic progression then we can add 2 numbers
+	then check if we have an arithmetic progression then we can add 2 numbers (before the first element and after the last one)
 	otherwise we have to check if we can make it an arithmetic progression by adding only 1 number
 */
 #include <bits/stdc++.h>
