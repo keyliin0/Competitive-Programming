@@ -4,7 +4,8 @@
 	we can do that by fixing the first element and the b next elements will have greater sum then all previous integers
 	then we print a integers which will be equal to the last integer + 1
 	we can fill the rest with 1
-	for case b = 0 and a = n - 1 there is no answer becayse if we fix the first element the next element will be greater than the sum of the previous elements
+	for case b = 0 and a = n - 1 there is no answer because if we fix the first element the next element
+	will be greater than the sum of the previous elements
 	so we must treat this case carefully
 */
 #include <bits/stdc++.h>
