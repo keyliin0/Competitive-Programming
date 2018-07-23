@@ -1,7 +1,7 @@
 /*
 	give every user an id so we can manipulate the input easier
 	split every word in every message and check if it mention any user
-	brute force if a solution exists and memo
+	brute force to check if a solution exists and memo
 */
 #include <bits/stdc++.h>
 using namespace std;
