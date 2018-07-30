@@ -1,7 +1,7 @@
 /*
 	each box with length K can hold 4 times the previous one and 4*4 the one with K - 2 length
 	if we want to give each box a capicity it would be 4^k
-	let s be the answer where so 4^s >= 4^kmax * a
+	let s be the answer : 4^s >= 4^kmax * a
 	since we're looking for the minimum answer 4^s = 4^kmax * a 
 	4^(s - kmax) = a
 	s -	kmax = log4(a)
