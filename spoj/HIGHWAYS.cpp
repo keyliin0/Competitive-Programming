@@ -27,7 +27,7 @@ int dist[N];
 
 int main() {
 	int test;
-	cin >> test;
+	scanf("%d",&test);
 	while (test--) {
 		scanf("%d%d%d%d",&n,&m,&s,&e);
 		g.clear();
