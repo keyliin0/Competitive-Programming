@@ -1,3 +1,7 @@
+/*
+	store the moves and changing of the indices between each move
+	then use binary search to find the element
+*/
 #include <bits/stdc++.h>
 using namespace std;
 #define loop(i,b,e) for(int i=b;i<=e;i++)
