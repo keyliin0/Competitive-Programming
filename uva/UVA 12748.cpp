@@ -24,9 +24,6 @@ const int oo = 1e9;
 int dx[] = { 0, 0, 1, -1, 1, -1, 1, -1 };
 int dy[] = { 1, -1, 0, 0, -1, 1, 1, -1 };
 
-
-/*thikning 1 - writing 7 - submit cnt 1 */
-
 struct Point{
 	double x, y;
 };
