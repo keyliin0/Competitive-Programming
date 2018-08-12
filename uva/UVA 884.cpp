@@ -29,7 +29,6 @@ int dy[] = { 1, -1, 0, 0, -1, 1, 1, -1 };
 
 int n;
 int freq[N];
-/*thikning 8 - writing 4 - submit cnt 2 */
 
 void getfactors(int x) {
 	int sum = 0,a = x;
