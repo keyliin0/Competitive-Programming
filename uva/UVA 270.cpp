@@ -1,5 +1,5 @@
 /*
-	suppose that will always use the ith point then calculate with the other points 
+	suppose that will always use the ith point then calculate the slope with the other points 
 	the answer will be the max freqnuency of a slope
 */
 #include <bits/stdc++.h>
