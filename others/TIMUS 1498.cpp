@@ -1,5 +1,5 @@
 /*
-	get shortest path to all cells
+	find shortest path to all cells
 	now we know if we can reach the demon with <= l horizontally or vertically
 	check the cells which are in the same row with the demon , below and above
 	do the same vertically (cols)
