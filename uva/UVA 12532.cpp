@@ -46,8 +46,6 @@ int get(int p, int s, int e, int l, int r) {
 }
 
 int main() {
-	freopen("a.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
 	while (cin >> n >> q) {
 		loop(i, 0, n - 1) {
 			int x;
