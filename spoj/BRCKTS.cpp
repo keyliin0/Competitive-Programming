@@ -47,9 +47,9 @@ void build(int p, int s, int e) {
 	}
 	build(2 * p, s, (s + e) / 2);
 	build(2 * p + 1, (s + e) / 2 + 1, e);
-	seg[p].first = seg[2 * p + 1].first;
-	seg[p].second = seg[2 * p].second;
-	int diff = seg[2 * p].first - seg[2 * p + 1].second;
+	seg[p].first = seg[2 * p + 1].first; // we know that the we cannot close the unclosed open brackets to the right
+	seg[p].second = seg[2 * p].second; // same goes for the close brackets to the left
+	int diff = seg[2 * p].first - seg[2 * p + 1].second; // merging
 	if (diff >= 0)
 		seg[p].first += diff;
 	else seg[p].second -= diff;
