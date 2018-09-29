@@ -1,5 +1,5 @@
 /*
-	the first one can take n - 1 hats , the next one n - 2 and so one
+	the first one can take n - 1 hat  (we exclude his own hat) , the next one n - 2 and so one
 	find the number of ways with memo
 */
 #include <bits/stdc++.h>
