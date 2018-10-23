@@ -1,5 +1,5 @@
 /*
-	after tracing some test cases notice that we the edges that dont result in a cycle can be oriented in any way so 2^e
+	after tracing some test cases notice that the edges that dont result in a cycle can be oriented in any way so 2^e
 	for the edges that form a cycle along the path have 2^e - 2 number of ways because only 2 ways will form a cycle 
 	(when all of them are oriented to the same direction or all of them are flipped)
 */
