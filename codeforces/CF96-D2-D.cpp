@@ -4,6 +4,7 @@
 	if it is possible then push an edge from u to v with the cost Cu and so on
 	do that to all nodes
 	then run dijkstra on the new graph to find the minimum cost
+	complexity : O(n^2 * logn)
 */
 #include <bits/stdc++.h>
 using namespace std;
