@@ -20,38 +20,24 @@ const int oo = 1e9;
 int dx[] = { 0, 0, 1, -1, 1, -1, 1, -1 };
 int dy[] = { 1, -1, 0, 0, -1, 1, 1, -1 };
 
-string s;
-int m;
-int f;
-ll dp[1 << 18][101];
-int freq[10];
-ll fact[20];
+set<pair<ll,ll> > s;
+int n;
 
-ll solve(int mask,int mod) {
-	if (mask == f) return mod == 0;
-	ll &ret = dp[mask][mod];
-	if (ret != -1) return ret;
-	ret = 0;
-	for (int i = 0; i < s.size(); i++) {
-		if ((s[i] == '0' && mask == 0) || (mask & (1 << i))) continue;
-		ret += solve(mask | (1 << i), (mod * 10 + (s[i] - '0')) % m);
-	}
-	return ret;
+ll GCD(ll a, ll b) {
+	if (b == 0)
+		return a;
+	return GCD(b, a%b);
 }
 
 int main() {
-	cin >> s >> m;
-	f = (1 << s.size()) - 1;
-	memset(dp, -1, sizeof dp);
-	ll ans = solve(0, 0);
-	for (int i = 0; i < s.size(); i++)
-		freq[s[i] - '0']++;
-	fact[0] = 1;
-	for (int i = 1; i < 20; i++) {
-		fact[i] = (ll)fact[i - 1] * i;
+	scanf("%d",&n);
+	loop(i, 0, n - 1) {
+		ll k, b;
+		scanf("%lld%lld",&k,&b);
+		if (k) {
+			ll g = GCD(k, b);
+			s.insert({ k /g ,b / g });
+		}
 	}
-	for (int i = 0; i < 10; i++) {
-		ans /= fact[freq[i]];
-	}
-	cout << ans;
+	printf("%d",s.size());
 }
