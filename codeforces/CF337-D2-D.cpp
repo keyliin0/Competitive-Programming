@@ -1,3 +1,6 @@
+/*
+find what is the max distance from a node u to the affected settlements in the subtree of u and out of the subtree
+*/
 #include <bits/stdc++.h>
 using namespace std;
 #define loop(i,b,e) for(int i=b;i<=e;i++)
