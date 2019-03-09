@@ -32,7 +32,7 @@ int n;
 Point t[N];
 
 Point perpendicular_point(double x1, double y1, double x2, double y2, double x3, double y3) {
-	double k = k = ((y2 - y1) * (x3 - x1) - (x2 - x1) * (y3 - y1)) / ((y2 - y1) *(y2 - y1) + (x2 - x1) * (x2 - x1));
+	double k = ((y2 - y1) * (x3 - x1) - (x2 - x1) * (y3 - y1)) / ((y2 - y1) *(y2 - y1) + (x2 - x1) * (x2 - x1));
 	Point p;
 	p.x = x3 - k * (y2 - y1);
 	p.y = y3 + k * (x2 - x1);
