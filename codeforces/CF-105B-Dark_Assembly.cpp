@@ -1,7 +1,7 @@
 /* 
 	the problem can be divided into two parts
 	the first part is to distribute k candy in an optimal way
-	this can be done by a brute force since k <= 8
+	this can be done by a brute force since k < 8
 	the second part is to calculate the probability of each case
 	we can use a mask 0 mean a no and 1 yes
 	the probability will be pi if vote is yes and 1 - pi otherwise
