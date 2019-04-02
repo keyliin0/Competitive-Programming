@@ -8,7 +8,7 @@ using namespace std;
 #define X real()
 #define Y imag()
 #define cp(a,b)    ( (conj(a)*(b)).imag() )
-#define dp(a,b)                 ( (conj(a)*(b)).real() )	// a*b cos(T), if zero -> prep
+#define dp(a,b)                 ( (conj(a)*(b)).real() )
 #define length(a) (hypot((a).imag(), (a).real()))
 #define rotateO(p,ang) ((p)*exp(point(0,ang)))
 #define rotateA(p,ang,about)  (rotateO(vec(about,p),ang)+about)
