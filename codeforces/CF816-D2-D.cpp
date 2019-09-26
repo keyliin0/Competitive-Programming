@@ -1,3 +1,6 @@
+/*
+  preprocess using acumulative sum
+*/
 #include<bits/stdc++.h>
 using namespace std;
 #define loop(i,b,e) for(int i=b;i<=e;i++)
